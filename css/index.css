@@ -1,0 +1,306 @@
+/* Mobile Version */
+	
+	/* Navbar */
+	.navbar-brand, .nav-link {
+	color: black !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	}
+
+
+	.navbar-brand {
+		font-family: 'rock salt';
+	}
+
+
+
+	/* Jumbotron */
+	.jumbotron1 {
+		background-image: url(../img/laptop.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 350px;
+	}
+
+	.jumbotron1 img {
+		width: 200px;
+		margin-bottom: -400px;
+		z-index: 999;
+	}
+
+
+
+	/* Info Panel */
+	.info-panel {
+		box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+		margin-top: -200px;
+		background-color: white;
+		padding: 30px;
+		height: 320px;
+	}
+
+	.info-panel .profil {
+		width: 150px;
+		margin-top: -100px;
+	}
+
+	.info-panel h6 {
+		color: orange;
+	}
+
+	.info-panel span {
+		font-weight: bold;
+	}
+
+	.info-panel p {
+		font-size: 14px;
+	}
+
+
+	/* Portofolio */
+	.portofolio h2 {
+		margin-top: 50px;
+		border-top: 7px solid orange;
+		width: 70px;
+	}
+
+
+	/* Aboubt Me */
+	.about h2 {
+		margin-top: 70px;
+		border-top: 7px solid orange;
+		width: 70px;
+	}
+
+	.about p {
+		font-size: 14px;
+		margin-top: 70px;
+	}
+
+
+	/* Skill */
+	.skill h2 {
+		margin-top: 30px;	
+	}
+
+	.progress {
+		margin-top: 30px;
+		height: 10px;
+	}
+
+
+	/* Contact */
+	.jumbotron3 {
+		background-image: url(../img/lampu.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-bottom: -50px;
+		margin-top: 100px;
+	}
+
+
+	.map-container {
+		box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+		height: 220px;
+		margin-bottom: 30px;
+	}
+
+
+	.map-container iframe {
+		width: 453px;
+	}
+
+
+	h3 {
+		text-align: center;
+	}
+
+
+	.form-group {
+		text-align: center;
+	}
+
+
+
+	/* Footer */
+	.footer {
+		color: orange !important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+		background: rgba(0,0,0,1);
+		font-size: 12px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+/* Dekstop Version */
+@media (min-width: 922px) {
+	/* Navbar */
+	.navbar-brand, .nav-link {
+	color: orange !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	}
+
+
+	.navbar {
+		background: rgba(0, 0, 0, 1);
+		height: 60px;
+		position: fixed;
+		width: 100%;
+		z-index: 2;
+	}
+
+
+	.nav-link {
+		text-transform: uppercase;
+		margin-right: 10px;
+	}
+
+
+	.nav-link:hover {
+		color: white;
+		font-size: 20px;
+		margin: auto;
+		padding-bottom: 2px;
+		margin-bottom: 1px;
+	}
+
+
+	.navbar-brand {
+		font-family: 'rock salt';
+	}
+	/* Akhir Navbar */
+
+
+
+	/* Jumbotron */
+	.jumbotron1 {
+		background-image: url(../img/laptop.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 400px;
+		background-position: 0 -230px;
+		border: 1px solid black;
+	}
+
+	.jumbotron1 img {
+		width: 200px;
+		margin-bottom: -400px;
+		z-index: 999;
+	}
+	/* Akhir Jumbotron */
+
+
+	/* Info Panel */
+	.info-panel {
+		box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+		margin-top: -200px;
+		background-color: white;
+		padding: 30px;
+		height: 300px;
+	}
+
+	.info-panel .profil {
+		width: 200px;
+		margin-top: -100px;
+	}
+
+	.info-panel span {
+		font-weight: bold;
+	}
+
+	.info-panel p {
+		margin-bottom: 3px;
+	}
+
+	.info-panel h6 {
+		margin-top: -10px;
+		color: orange;
+	}
+
+	.info-panel h4 {
+		font-family: 'Marcellus';
+	}
+
+	.sosmed {
+		margin-top: 15px;
+	}
+	/* Akhir Info Panel */
+
+
+
+	/* Portofolio */
+	.portofolio h2 {
+		margin-top: 130px;
+		border-top: 7px solid orange;
+		width: 70px;
+		margin-bottom: 40px;
+	}
+	/* Akhir Portofolio */
+
+
+
+	/* About Me */
+	.about h2 {
+		margin-top: 100px;
+		border-top: 7px solid orange;
+		width: 70px;
+	}
+
+
+	.about p {
+		margin-top: 100px;
+		font-size: 17px;
+		margin-bottom: 100px;
+	}
+	/* Akhir About Me */
+
+
+
+	/* Skill */
+	.skill h2 {
+		margin-top: 7px;	
+	}
+
+	.progress {
+		margin-top: 20px;
+		height: 15px;
+	}
+	/* Akhir Skill */
+
+
+	/* Contact */
+	.jumbotron3 {
+		background-image: url(../img/lampu.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-bottom: -50px;
+		margin-top: 100px;
+	}
+
+
+	.map-container {
+		box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+		height: 220px;
+	}
+
+
+	.map-container iframe {
+		width: 350px;
+	}
+
+
+	.form-group {
+		text-align: left;
+	}
+	/* Akhir Contact */
+
+
+	
+}
