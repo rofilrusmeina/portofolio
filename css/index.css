@@ -1,9 +1,24 @@
+ html {
+ 	scroll-behavior: smooth;
+ }
+
 /* Mobile Version */
 	
 	/* Navbar */
 	.navbar-brand, .nav-link {
-	color: black !important;
+	color: orange !important;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	}
+
+
+	.navbar-toggler-icon {
+		color: orange !important;
+	}
+
+
+	.navbar {
+		background-color: black;
+		color: orange !important;
 	}
 
 
@@ -15,7 +30,7 @@
 
 	/* Jumbotron */
 	.jumbotron1 {
-		background-image: url(../img/laptop.jpg);
+		background-image: url(../aset/img/laptop.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 350px;
@@ -90,7 +105,7 @@
 
 	/* Contact */
 	.jumbotron3 {
-		background-image: url(../img/lampu.jpg);
+		background-image: url(../aset/img/lampu.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		margin-bottom: -50px;
@@ -181,7 +196,7 @@
 
 	/* Jumbotron */
 	.jumbotron1 {
-		background-image: url(../img/laptop.jpg);
+		background-image: url(../aset/img/laptop.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 400px;
@@ -277,7 +292,7 @@
 
 	/* Contact */
 	.jumbotron3 {
-		background-image: url(../img/lampu.jpg);
+		background-image: url(../aset/img/lampu.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		margin-bottom: -50px;
