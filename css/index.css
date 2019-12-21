@@ -39,15 +39,7 @@
 	}
 
 
-	.navbar .nav-item {
-		border: 0 solid orange;
-		border-radius: 0;
-	}
 
-
-	.navbar .nav-link {
-		margin-bottom: 0;
-	}
 
 
 
@@ -212,6 +204,18 @@
 
 	.navbar-brand {
 		font-family: 'rock salt';
+	}
+
+
+		.navbar .nav-item {
+		border: 0 solid orange;
+		border-radius: 0;
+		text-align: center;
+	}
+
+
+	.navbar .nav-link {
+		margin-bottom: 0;
 	}
 	/* Akhir Navbar */
 
