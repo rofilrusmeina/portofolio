@@ -27,6 +27,29 @@
 	}
 
 
+	.navbar .nav-item {
+		border: 1px solid orange;
+		border-radius: 4px;
+		text-align: center;
+	}
+
+
+	.navbar .nav-link {
+		margin-bottom: 5px;
+	}
+
+
+	.navbar .nav-item {
+		border: 0 solid orange;
+		border-radius: 0;
+	}
+
+
+	.navbar .nav-link {
+		margin-bottom: 0;
+	}
+
+
 
 	/* Jumbotron */
 	.jumbotron1 {
